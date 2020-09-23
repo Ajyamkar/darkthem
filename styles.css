@@ -15,7 +15,7 @@ body{
 h1{
   margin-bottom: 0;
   font-size: 22px;
-  color: hsl(230, 17%, 14%);
+  /* color: hsl(230, 17%, 14%); */
     font-weight: bolder;
 }
 .p-totalFollower{
@@ -54,7 +54,7 @@ h1{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: yellow;
+  background-color: black;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -116,6 +116,14 @@ font-size: 15px;
     border-radius: 6px;
       border-width: thick;
 }
+.big-colDark{
+  text-align: center;
+    background: black;
+    padding-top: 24px;
+    margin: 15px;
+    border-radius: 6px;
+      border-width: thick;
+}
 .p-today{
   display: inline-block;
     margin: 20px 0 22px;
@@ -129,6 +137,12 @@ font-size: 15px;
 }
 .container-fbViews{
   background: hsl(227, 47%, 96%);
+    padding: 9%;
+    margin-bottom: 13px;
+    padding-bottom: 4%;
+}
+.container-fbViewsDark{
+  background:black;
     padding: 9%;
     margin-bottom: 13px;
     padding-bottom: 4%;
@@ -219,13 +233,18 @@ font-size: 15px;
 @media (min-width:576px) {
   .colorBg{
     background: black;
+    width: 95rem;
+    position: absolute;
+    top: 0rem;
+    height: 20rem;
   }
-  .color{
+  .colorClass{
     background:hsl(225, 100%, 98%);
     height: 18rem;
     top: 0px;
     position: absolute;
   }
+
   .main-div{
     margin: 4rem 16rem;
   }
@@ -252,6 +271,12 @@ font-size: 15px;
     width: 118%;
   }
   .container-fbViews{
+    padding: 2%;
+    max-width: 19.6%;
+    margin-right: 30px;
+  }
+  .container-fbViewsDark{
+    background-color: black;
     padding: 2%;
     max-width: 19.6%;
     margin-right: 30px;
