@@ -1,0 +1,329 @@
+body{
+  color: hsl(228, 12%, 44%);
+}
+.bodybg{
+  background-color: hsl(230, 17%, 14%);
+}
+
+ div.container-fbViews:hover,div.big-col:hover{
+  background-color: hsl(230, 22%, 74%);
+ }
+
+.main-div{
+  margin-top:4rem;
+}
+h1{
+  margin-bottom: 0;
+  font-size: 22px;
+  color: hsl(230, 17%, 14%);
+    font-weight: bolder;
+}
+.p-totalFollower{
+  border-bottom: groove;
+  padding: 0 0 20px;
+  font-weight: 700;
+  font-size: 14px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.p-dark{
+  text-align: left;
+  font-weight: 700;
+  display: inline-flex;
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+  margin-left: 158px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: yellow;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.h1-year{
+  font-size: 62px;
+  margin-top: 11px;
+}
+.h4-follower{
+  font-size: 15px;
+}
+small{
+  font-weight: 700;
+/* padding-top: 9rem; */
+/* padding-top: 19px; */
+position: relative;
+top: 5px;
+font-size: 15px;
+}
+.big-col{
+  text-align: center;
+    background:  hsl(227, 47%, 96%);
+    padding-top: 24px;
+    margin: 15px;
+    border-radius: 6px;
+      border-width: thick;
+}
+.p-today{
+  display: inline-block;
+    margin: 20px 0 22px;
+    color:hsl(163, 72%, 41%);
+    font-weight: 700;
+}
+.h2-overview{
+  font-weight: 700;
+    font-size: 25px;
+    margin: 21px -14px;
+}
+.container-fbViews{
+  background: hsl(227, 47%, 96%);
+    padding: 9%;
+    margin-bottom: 13px;
+    padding-bottom: 4%;
+}
+.p-views{
+  display: inline-block;
+}
+
+.img-fb1{
+  padding-left: 8rem;
+}
+.td-fb1{
+  padding: 11px 0 0 51%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(163, 72%, 41%);
+
+}
+.img-fb2{
+  padding-left: 11rem;
+}
+.td-fb2{
+  padding: 11px 0 0 71%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(356, 69%, 56%);
+}
+.img-insta1{
+  padding-left: 9rem;
+}
+.td-insta1{
+  padding: 11px 0 0 49%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(163, 72%, 41%);
+
+}
+.img-insta2{
+  padding-left: 7rem;
+}
+.td-insta2{
+  padding: 11px 0 0 36%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(163, 72%, 41%);
+
+}
+.img-tweet1{
+  padding-left: 9rem;
+}
+.td-tweet1{
+  padding: 11px 0 0 52%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(163, 72%, 41%);
+
+}
+.img-tweet2{
+  padding-left: 10rem;
+}
+.td-tweet2{
+  padding: 11px 0 0 59%;
+  font-size: 12px;
+  color:hsl(163, 72%, 41%);
+  font-weight: 700;
+
+}
+.img-utube1{
+  padding-left: 10rem;
+}
+.td-utube1{
+  padding: 11px 0 0 62%;
+  font-size: 12px;
+  color:hsl(356, 69%, 56%);
+  font-weight: 700;
+
+}
+.img-utube2{
+  padding-left: 8rem;
+}
+.td-utube2{
+  padding: 11px 0 0 48%;
+  font-size: 12px;
+  font-weight: 700;
+  color:hsl(356, 69%, 56%);
+}
+
+@media (min-width:576px) {
+  .colorBg{
+    background: black;
+  }
+  .color{
+    background:hsl(225, 100%, 98%);
+    height: 18rem;
+    top: 0px;
+    position: absolute;
+  }
+  .main-div{
+    margin: 4rem 16rem;
+  }
+  h1{
+    font-size: 28px;
+  }
+
+  .upper-col{
+    max-width: 38%;
+  }
+  .p-dark{
+    text-align: right;
+    margin-top: 1rem;
+    margin: 1rem 0 0 24rem;
+  }
+  .p-totalFollower{
+    border: none;
+    font-size: 14px;
+  }
+  .switch{
+    margin-left: 12px;
+  }
+  .row-second{
+    width: 118%;
+  }
+  .container-fbViews{
+    padding: 2%;
+    max-width: 19.6%;
+    margin-right: 30px;
+  }
+  .img-fb1{
+    padding-left: 4rem;
+  }
+  .td-fb1{
+    padding: 11px 0 0 31%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-fb2{
+    padding-left: 7rem;
+  }
+  .td-fb2{
+    padding: 11px 0 0 59%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-insta1{
+    padding-left: 5rem;
+  }
+  .td-insta1{
+    padding: 11px 0 0 31%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-insta2{
+    padding-left: 3rem;
+  }
+  .td-insta2{
+    padding: 11px 0 0 12%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .img-tweet1{
+    padding-left: 5rem;
+  }
+  .td-tweet1{
+    padding: 11px 0 0 34%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-tweet2{
+    padding-left: 6rem;
+  }
+  .td-tweet2{
+    padding: 11px 0 0 44%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-utube1{
+    padding-left: 6rem;
+  }
+  .td-utube1{
+    padding: 11px 0 0 48%;
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .img-utube2{
+    padding-left: 4rem;
+  }
+  .td-utube2{
+    padding: 11px 0 0 29%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
